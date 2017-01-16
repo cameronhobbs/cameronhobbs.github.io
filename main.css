@@ -64,6 +64,17 @@ body {
   text-transform: uppercase;
 }
 
+.timeline {
+  color: #808284;
+  font-size: .85em;
+  line-height: 1.4em;
+  margin-bottom: 1%;
+/*  margin-left: 1%;*/
+  margin-top: .5em;
+  font-style: italic;
+  /*display: inline-block;*/
+}
+
 .category-headers {
   color: #DF723E;
   font-size: .9em;
@@ -76,10 +87,9 @@ body {
 .category-details {
   color: #808284;
   font-size: .9em;
-  font-style: italic;
   line-height: 1.4em;
   margin-bottom: 1%;
-  margin-left: 2%;
+  margin-left: 1%;
   margin-top: .5em;
   /*margin-top: -1%;*/
 }
