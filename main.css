@@ -1,14 +1,14 @@
 body {
   background-color: white;
-  font-family: 'Gudea', sans-serif;
-  margin: 5% 15% 5% 15%;
+  font-family: 'Open Sans', sans-serif;
+  margin: 5% 8% 5% 8%;
 }
 
 .name {
   color: #DF723E;
   display: inline-block;
-  font-size: 1.4em;
-  letter-spacing: 3px;
+  font-size: 2em;
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
@@ -18,7 +18,6 @@ body {
   font-size: .8em;
   letter-spacing: 1px;
   line-height: .9em;
-  text-transform: uppercase;
 }
 
 .contact-deets {
@@ -33,6 +32,7 @@ body {
   color: #58585B;
   display: inline-block;
   text-decoration: none;
+  padding-right: 1em;
 }
   .links:hover {
     color: #DF723E;
@@ -47,7 +47,7 @@ body {
 .primary-titles {
   color: #DF723E;
   display: inline-block;
-  font-size: .9em;
+  font-size: 1em;
   letter-spacing: 1px;
   margin-bottom: -1%;
   text-decoration: none;
@@ -77,18 +77,18 @@ body {
 
 .category-headers {
   color: #DF723E;
-  font-size: .9em;
+  font-size: 1.1em;
   letter-spacing: 2px;
-  margin-top: 3em;
+  margin-top: 1em;
   margin-bottom: .1em;
   text-transform: uppercase;
 }
 
 .category-details {
   color: #808284;
-  font-size: .9em;
+  font-size: 1em;
   line-height: 1.4em;
-  margin-bottom: 1%;
+  margin-bottom: .5%;
   margin-left: 1%;
   margin-top: .5em;
   /*margin-top: -1%;*/
@@ -102,6 +102,17 @@ body {
   margin-left: 2%;
   margin-right: 7%;
   margin-top: 1em;
+}
+
+.category-description-list-header {
+  color: #808284;
+  font-size: .9em;
+  line-height: 1.4em;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 7%;
+  margin-top: 1em;
+  font-weight: 900;
 }
 
 .category-description {
@@ -119,3 +130,17 @@ hr {
   border-style: none none dotted; 
   margin: 0 10% 0 0;
 }
+
+ul {
+  color: #808284;
+  font-size: .9em;
+  padding-left: 10%;
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+    
